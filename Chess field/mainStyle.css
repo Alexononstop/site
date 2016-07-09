@@ -1,0 +1,79 @@
+body{
+	background-color: blue;
+}
+.w{
+	background-color: #F0D9B5;
+	
+
+}
+.b{
+	background-color: #B58863;
+	
+}
+.playField{
+	border:10px solid black;
+	height: 510px;
+	width: 510px;
+	position:absolute;
+	top:60px;
+	left: 50px;
+}
+li{
+	
+	height: 64px;
+	width:64px;
+	display: inline-block;
+	
+	margin-bottom:-4px;
+	margin-right:-4px;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+.pewkaw{
+	background-image:url("aaa.png");
+	background-position:center;
+	background-position:fixed;
+	background-repeat: no-repeat;
+	background-size: 75%;
+
+	
+}
+.pewkab{
+	
+	background-image:url("pawn-black-silhouette.png");
+	background-position:center;
+	background-position:fixed;
+	background-repeat: no-repeat;
+	background-size: 75%;
+}
+ul:hover{
+	cursor: pointer;
+}
+li:hover{
+	height: 60px;
+	width:60px;
+	border:2px solid yellow;
+}
+.play{
+	position: absolute;
+	height: 60px;
+	width:300px;
+	background-color: red;
+	border:5px solid black;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: -30px;
+	padding-bottom: 0px;
+	font-size: 50px;
+	text-decoration: underline;
+	top:500px;
+	right:300px;
+}
+.play:hover{
+	cursor: pointer;
+	border:10px solid yellow;
+}
+	
+
